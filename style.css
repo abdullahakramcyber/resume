@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    background-color: lightgray;
+    color: rgb(17, 17, 17);
+    line-height: 1.6;
+    padding: 0;
+    
+}
+
+header {
+    background: linear-gradient(to right, mediumslateblue, deepskyblue);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: rgb(231, 236, 236);
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(177, 95, 181);
+}
+
+footer {
+     
+    padding: 15px ;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 15%;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+img {
+    max-width: manual;
+    height: manual;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    position: center;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    background-color: rgb(186, 225, 192);
+    padding: 30px;
+    border-radius: 8px;
+    
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(8, 6, 6);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: mediumslateblue;
+    outline: none;
+}
+
+button {
+    background-color: rgb(21, 200, 236);
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(141, 58, 129);
+}
+
+
+
+main, footer, header {
+    transition: background-color 1s ease-in-out;
+}
+
+header {
+    background: linear-gradient(to right, rgb(202, 152, 211), rgb(85, 106, 147));
+}
+
+footer {
+    background: rgb(98, 141, 177);
+}
+
+main {
+    background-color: rgb(159, 184, 185);
+}
+
+header:hover {
+    background: linear-gradient(to right, darkslateblue, lightskyblue);
+}
+
+footer:hover {
+    background:rgb(115, 50, 115);
+}
+
+main:hover {
+    background-color: rgb(126, 165, 153);
+}
